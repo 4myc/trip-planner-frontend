@@ -3,7 +3,7 @@
 Trip Planner is a solution to making planning trips easier. The app allows a user to create trips and add a packing list and itinerary to each trip. The user can also edit trip information, packing list items, and delete trips.  
 
 
-## INSTALLATION:  
+## INSTALLATION  
 Clone the front-end repository, located here.  
 In the terminal, save the cloned repository to a local folder by running:   
 ```
@@ -16,7 +16,7 @@ git clone <github_repo_url>
 ```
 
 
-## HOW TO USE:  
+## HOW TO USE  
 Front-end folder in terminal:  
 ```
 npm install  
@@ -38,7 +38,7 @@ rails s
 In the username field, enter **"Drew”** to login and experience the app.
 
 
-## TEAM MEMBERS:  
+## TEAM MEMBERS  
 **Andrew Matheny** https://github.com/AndrewMatheny     
 **Nicole Cabral** https://github.com/NicoleLC16  
 **Amy Chen** https://github.com/4myc  
