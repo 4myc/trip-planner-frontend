@@ -17,14 +17,6 @@ git clone <github_repo_url>
 
 
 ## HOW TO USE  
-Front-end folder in terminal:  
-```
-npm install  
-npm start 
-```
-The message “Something is running on port 3000. Would you like to run the app on another port instead?” will appear.  
-Enter “Y” and the index.html file will automatically open in the browser.  
-
 Back-end folder in terminal:   
 ```
 bundle install 
@@ -33,6 +25,15 @@ rails db:migrate
 rails db:seed
 rails s
 ```
+
+Front-end folder in terminal:  
+```
+npm install  
+npm start 
+```
+
+The message “Something is running on port 3000. Would you like to run the app on another port instead?” will appear.  
+Enter “Y” and the index.html file will automatically open in the browser.  
 
 **LOGIN REQUIRED:**  
 In the username field, enter **"Drew”** to login and experience the app.
