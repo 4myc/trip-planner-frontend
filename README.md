@@ -22,7 +22,7 @@ Front-end folder in terminal:
 npm install  
 npm start 
 ```
-The message “Something is running on port 3000. Would you like to run the app on another port instead?”  
+The message “Something is running on port 3000. Would you like to run the app on another port instead?” will appear.  
 Enter “Y” and the index.html file will automatically open in the browser.  
 
 Back-end folder in terminal:   
