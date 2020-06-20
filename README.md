@@ -2,9 +2,6 @@
 
 Trip Planner is a solution to making planning trips easier. The app allows a user to create trips and add a packing list and itinerary to each trip. The user can also edit trip information, packing list items, and delete trips.  
 
-**VIDEO DEMO:** 
-https://www.youtube.com/watch?v=Q-WeMqkm-Eg  
-
 
 ## INSTALLATION:  
 Clone the front-end repository, located here.  
