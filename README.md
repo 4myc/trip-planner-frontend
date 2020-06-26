@@ -20,7 +20,7 @@ git clone <github_repo_url>
 ```
 
 
-## How To Use 
+## Usage
 1. Back-end folder in terminal:   
 ```
 bundle install 
