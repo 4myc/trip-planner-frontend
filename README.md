@@ -11,17 +11,17 @@ BACK-END: Rails, PostgreSQL
 1. Fork and clone the front-end repository, located here.  
 2. In the terminal, save the cloned repository to a local folder by running:   
 ```
-git clone <github_repo_url>    
+git clone https://github.com/<github_username>/trip-planner-client
 ```
 3. Fork and clone the back-end repository, located at https://github.com/4myc/trip-planner-server  
 4. In the terminal, save the cloned repository to a local folder by running:   
 ```
-git clone <github_repo_url>  
+git clone https://github.com/<github_username>/trip-planner-server
 ```
 
 
 ## Usage
-1. Inside the back-end folder in terminal, run the following:   
+1. Inside the back-end folder in the terminal, run the following:   
 ```
 bundle install 
 rails db:create
@@ -30,7 +30,7 @@ rails db:seed
 rails s
 ```
 
-2. Inside the front-end folder in terminal, run the following:  
+2. Inside the front-end folder in the terminal, run the following:  
 ```
 npm install  
 npm start 
