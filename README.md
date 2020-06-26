@@ -21,7 +21,7 @@ git clone <github_repo_url>
 
 
 ## Usage
-1. Back-end folder in terminal:   
+1. Inside the back-end folder in terminal, run the following:   
 ```
 bundle install 
 rails db:create
@@ -30,7 +30,7 @@ rails db:seed
 rails s
 ```
 
-2. Front-end folder in terminal:  
+2. Inside the front-end folder in terminal, run the following:  
 ```
 npm install  
 npm start 
