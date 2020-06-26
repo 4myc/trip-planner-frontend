@@ -2,6 +2,7 @@
 
 Trip Planner is a solution to make planning trips easier. The dynamic single-page app allows a user to create trips and add a packing list and itinerary to each trip. The user can also view a list of trips, edit trip information and packing list items, and delete trips.  
 
+TECHNOLOGIES: React.js, Semantic UI  
 
 ## INSTALLATION  
 Fork and clone the front-end repository, located here.  
