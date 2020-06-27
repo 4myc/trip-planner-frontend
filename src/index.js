@@ -5,7 +5,9 @@ import App from './App';
 
 import 'semantic-ui-css/semantic.min.css'; //Semantic UI CSS
 
-
+const port = process.env.PORT || 3000
+...
+app.listen(port, () => console.log('server started on port', port))
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
