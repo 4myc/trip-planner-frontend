@@ -51,6 +51,6 @@ In the username field, enter **"Drew”** to login and experience the app.
 
 
 ## Team Members 
-**Andrew Matheny** https://github.com/AndrewMatheny     
-**Nicole Cabral** https://github.com/NicoleLC16  
-**Amy Chen** https://github.com/4myc  
+**<a href="https://github.com/AndrewMatheny">Andrew Matheny</a>**    
+**<a href="https://github.com/NicoleLC16">Nicole Cabral</a>**  
+**<a href="https://github.com/4myc">Amy Chen</a>**
