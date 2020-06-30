@@ -15,12 +15,12 @@ FRONT-END: React.js, Semantic UI
 BACK-END: Rails, PostgreSQL  
 
 ## Installation 
-1. Fork and clone the front-end repository, located here.  
+1. Fork and clone the front-end (client) repository, located here.  
 2. In the terminal, save the cloned repository to a local folder by running:   
 ```
 git clone https://github.com/<github_username>/trip-planner-client
 ```
-3. Fork and clone the back-end repository, located at https://github.com/4myc/trip-planner-server  
+3. Fork and clone the back-end (server) repository, located at https://github.com/4myc/trip-planner-server  
 4. In the terminal, save the cloned repository to a local folder by running:   
 ```
 git clone https://github.com/<github_username>/trip-planner-server
@@ -28,7 +28,8 @@ git clone https://github.com/<github_username>/trip-planner-server
 
 
 ## Usage
-1. Inside the back-end folder in the terminal, run the following:   
+1. Open the front-end and back-end folders in separate terminal windows.
+2. Inside the back-end folder in the terminal, run the following:   
 ```
 bundle install 
 rails db:create
@@ -37,16 +38,16 @@ rails db:seed
 rails s
 ```
 
-2. Inside the front-end folder in the terminal, run the following:  
+3. Inside the front-end folder in the terminal, run the following:  
 ```
 npm install  
 npm start 
 ```
 
-3. The message “Something is running on port 3000. Would you like to run the app on another port instead?” will appear.  
+4. The message “Something is running on port 3000. Would you like to run the app on another port instead?” will appear.  
 Enter “Y” and the index.html file will automatically open in the browser.  
 
-4. **LOGIN REQUIRED:**  
+5. **LOGIN REQUIRED:**  
 In the username field, enter **"Drew”** to login and experience the app.
 
 
