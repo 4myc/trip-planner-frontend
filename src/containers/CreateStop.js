@@ -14,7 +14,7 @@ class CreateStop extends React.Component {
 
       handleSubmit = (e) => {
         let formData = {trip_id: this.props.trip.id, name: this.state.stopname, location: this.state.location, date: this.state.date, notes: this.state.notes}
-        fetch(`http://localhost:3000/stops`, {
+        fetch(`${HEROKU_URL}/stops`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"

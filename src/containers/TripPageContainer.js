@@ -18,7 +18,7 @@ class TripPageContainer extends Component {
   
   fetchTripDetails = () => {
     let tripId = this.props.selectedTrip.id
-    fetch(`http://localhost:3000/trips/${tripId}`)
+    fetch(`${HEROKU_URL}/trips/${tripId}`)
     .then(res => res.json())
     .then(data => this.setState({
       trip: data,
@@ -86,7 +86,7 @@ class TripPageContainer extends Component {
 
 
   deleteStop = (stop) => {
-    fetch(`http://localhost:3000/stops/${stop.id}`,{
+    fetch(`${HEROKU_URL}/stops/${stop.id}`,{
       method: 'DELETE',
       headers: {
         "Content-Type": "application/json"
@@ -111,7 +111,7 @@ class TripPageContainer extends Component {
   }
 
   deleteItem = (item) => {
-    fetch(`http://localhost:3000/items/${item.id}`,{
+    fetch(`${HEROKU_URL}/items/${item.id}`,{
       method: 'DELETE',
       headers: {
         "Content-Type": "application/json"

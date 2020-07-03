@@ -16,7 +16,7 @@ class TripIndex extends Component {
   }
 
   componentDidMount() {
-    fetch(`http://localhost:3000/users/${this.props.user}`)
+    fetch(`${HEROKU_URL}/users/${this.props.user}`)
     .then(resp => resp.json())
     .then(json => 
       this.setState({
@@ -34,7 +34,7 @@ class TripIndex extends Component {
   }
 
   handleDelete = (trip) => {
-    fetch(`http://localhost:3000/trips/${trip.id}`, {
+    fetch(`${HEROKU_URL}/trips/${trip.id}`, {
       method: 'DELETE',
       headers: {
         "Content-Type": "application/json"

@@ -14,7 +14,7 @@ class CreateTripContainer extends React.Component {
 
       handleSubmit = (e) => {
         let formData = {name: this.state.tripname, location: this.state.location, image: this.state.image, category: this.state.triptype, date: this.state.date, notes: this.state.notes, user_id: this.props.user.id}
-        fetch(`http://localhost:3000/trips`, {
+        fetch(`${HEROKU_URL}/trips`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"

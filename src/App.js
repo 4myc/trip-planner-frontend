@@ -34,7 +34,8 @@ class App extends React.Component {
 }
 
   getTrips = (userId) => {
-    fetch(`http://localhost:3000/users/${userId}`)
+    // fetch(`http://localhost:3000/users/${userId}`)
+    fetch(`${HEROKU_URL}/users/${userId}`)
     .then(res => res.json())
     .then(data => this.setState({
       userTrips: data
@@ -59,7 +60,8 @@ class App extends React.Component {
   }
 
   getUsers = () => {
-    fetch(`http://localhost:3000/users`)
+    // fetch(`http://localhost:3000/users`)
+    fetch(`${HEROKU_URL}/users`)
     .then(res => res.json())
     .then(data => this.setState({
       allUsers: data

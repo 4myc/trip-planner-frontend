@@ -13,7 +13,7 @@ class CreateUserForm extends Component {
 
       handleSubmit = () => {
         let formData = {username: this.state.username}
-        fetch(`http://localhost:3000/users`, {
+        fetch(`${HEROKU_URL}/users`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"

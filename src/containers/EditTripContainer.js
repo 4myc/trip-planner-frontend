@@ -7,7 +7,7 @@ class EditTripContainer extends Component{
       let id = this.props.trip.id
       let formPatch = {name: this.props.formData.name, location: this.props.formData.location, image: this.props.formData.image, category: this.props.formData.cateogry, date:this.props.formData.date, notes: this.props.formData.notes, user_id: this.props.trip.user.id}
 
-    fetch(`http://localhost:3000/trips/${id}`, {
+    fetch(`${HEROKU_URL}/trips/${id}`, {
         method: "PATCH",
         headers: {
             "Content-Type": "application/json"

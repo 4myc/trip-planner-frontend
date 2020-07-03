@@ -13,7 +13,7 @@ class CreateItemContainer extends Component {
 
       handleSubmit = (e) => {
         let formData = {name: this.state.itemname, quantity: this.state.quantity, is_packed: false, trip_id: this.props.trip.id}
-        fetch(`http://localhost:3000/items`, {
+        fetch(`${HEROKU_URL}/items`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"

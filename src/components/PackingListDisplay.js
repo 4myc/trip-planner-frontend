@@ -17,7 +17,7 @@ class PackingListDisplay extends Component {
     console.log(this.props)
     let itemPatch = {name: this.props.item.name, quantity: this.props.item.quantity, is_packed: this.props.item.is_packed}
     console.log(itemPatch)
-    fetch(`http://localhost:3000/items/${id}`, {
+    fetch(`${HEROKU_URL}/${id}`, {
       method: "PATCH",
       headers: {
           "Content-Type": "application/json"
